@@ -15,9 +15,9 @@
   <!-- Material Design Bootstrap -->
   <link href="css/mdb-free.min.css" rel="stylesheet">
   <!-- AnimateCSS -->
-  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,16 +49,19 @@
               <a class="nav-link" href="#intro">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#best-features">Features</a>
+              <a class="nav-link" href="#best-features">Chi Siamo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#examples">Examples</a>
+              <a class="nav-link" href="#examples">Cosa Facciamo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#gallery">Sostienici</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#gallery">Le nostre attività</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contatti</a>
             </li>
           </ul>
           <!-- Links -->
@@ -66,13 +69,10 @@
           <!-- Social Icon  -->
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/mdbootstrap/bootstrap-material-design"
+                class="nav-link border border-light rounded" target="_blank">
+                <i class="fas fa-donate"></i>Fai una donazione
+              </a>
             </li>
           </ul>
         </div>
@@ -93,18 +93,20 @@
             <div class="col-md-12">
 
               <!-- Heading -->
-              <h2 class="display-4 font-weight-bold white-text pt-5 mb-3 animate__animated animate__fadeInDown">Ficiesse San Matteo ETS</h2>
-              <h3 class="font-weight-bold white-text  mb-5">AL SERVIZIO DELLE FAMIGLIE</h3>
+              <h2
+                class="display-4 font-weight-bold white-text pt-lg-5 mb-3 animate__animated animate__fadeInDown animate__slow">
+                Ficiesse San Matteo ETS</h2>
+              <h3 class="font-weight-bold white-text  mb-5 animate__animated animate__fadeInUpBig animate__slow">AL
+                SERVIZIO DELLE FAMIGLIE</h3>
               <!-- Divider -->
               <hr class="hr-light">
-
-              <div class="animate__animated animate__bounce animate__repeat-2  white-text">Example</div>
-
-
               <!-- Description -->
-              <h4 class="white-text my-4">Con la tua firma per la San Matteo dai una mano cove c'é più bisogno</h4>
-              <h3 class="white-text font-weight-bold my-4">C.F. 97637150588</h3>
-              <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button>
+              <div class="animate__animated animate__fadeIn animate__delay-2s">
+                <h4 class="white-text my-4">Con la tua firma per la San Matteo dai una mano dove c'é più bisogno</h4>
+              </div>
+              <h3 class="white-text font-weight-bold my-4 animate__animated animate__swing animate__delay-3s">C.F.
+                97637150588</h3>
+              <a href="#content-main" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></a>
             </div>
           </div>
 
@@ -119,70 +121,353 @@
   <!--Main Navigation-->
 
   <!--Main layout-->
-  <main>
+  <main id="content-main" class="pt-5">
+
+    <!-- Container -->
+    <div class="container">
+
+      <section class="features my-5">
+
+        <!-- Section heading -->
+        <h2 class="title h1-responsive font-weight-bold text-center">Perché sostenerci?</h2>
+        <!-- Section description -->
+        <h6 class="subtitle font-weight-bold text-center">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam.</h6>
+        <!-- /Section heading -->
+
+        <!-- Grid row-1 -->
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="img/family-1.jpg" class="img-fluid z-depth-3 rounded " alt="Responsive image">
+          </div>
+          <div class="col-lg-7 p-3 py-lg-0 px-lg-3">
+
+            <!-- Grid row-2 -->
+            <div class="row my-4 my-lg-0">
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Aiutiamo chi è in difficoltà</h5>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+                  quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row mb-3">
+
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Finanziamo iniziative</h5>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+                  quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Creaiamo un futuro</h5>
+                <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima
+                  veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!--Grid row-->
+          </div>
+        </div>
+        <!-- /Grid row-->
+      </section>
+    </div>
+    <div class="container-fluid" style="background-color: #eee;">
+      <section id="projects" class="text-center p-5" style="background-color: #eee;">
+
+        <div class="container">
+          <h4 class="h1-responsive font-weight-bold text-center">I nostri progetti</h4>
+          <div class="row my-4">
+
+            <div class="col-lg-4">
+              <!-- Card Wider -->
+              <div class="card card-cascade wider my-5">
+
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg"
+                    alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div id="step-3" class="card-body card-body-cascade text-center tour st-3" title="Step three"
+                  data-index="2">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>Esempio 1</strong></h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                  <!-- Text -->
+                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam. </p>
+                </div>
+              </div>
+
+              <!-- /Card Wider -->
+            </div>
+            <div class="col-lg-4">
+              <!-- Card Narrower -->
+              <div class="card card-cascade wider my-5">
+
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                    alt="Card image cap">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>Esempio 2</strong></h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                  <!-- Text -->
+                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam. </p>
+
+                </div>
+
+              </div>
+              <!-- Card Narrower -->
+
+            </div>
+            <div class="col-lg-4">
+              <!-- Card Regular -->
+              <div class="card card-cascade wider my-5">
+
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg"
+                    alt="Card image cap">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>Esempio 3</strong></h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                  <!-- Text -->
+                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam. </p>
+
+                </div>
+
+              </div>
+              <!-- Card Regular -->
+            </div>
+          </div>
+
+      </section>
+    </div>
+
+    </div>
+    <!-- /Container-->
 
   </main>
-  <!--Main layout-->
+  <!-- /Main layout-->
 
   <!--Footer-->
-  <footer class="page-footer font-small blue">
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4">
 
-    <!-- Social buttons -->
-    <div class="primary-color">
-      <div class="container">
-        <!--Grid row-->
-        <div class="row py-4 d-flex align-items-center">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
 
-          <!--Grid column-->
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
-          </div>
-          <!--Grid column-->
+      <!-- Grid row -->
+      <div class="row">
 
-          <!--Grid column-->
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
-            <!--Facebook-->
-            <a class="fb-ic ml-0">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <!--Twitter-->
-            <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-            <!--Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <!--Linkedin-->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram white-text mr-lg-4"> </i>
-            </a>
-          </div>
-          <!--Grid column-->
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
 
         </div>
-        <!--Grid row-->
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
       </div>
+      <!-- Grid row -->
+
     </div>
+    <!-- Footer Links -->
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
     <!-- Social buttons -->
 
-    <!--Footer Links-->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://dotCreative.it/"> dotCreative.it</a>
+    </div>
+    <!-- Copyright -->
 
-    <!-- Start your project here-->
+  </footer>
+  <!-- Footer -->
 
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 
 </html>
