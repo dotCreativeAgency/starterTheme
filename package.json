@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "@babel/core": "^7.3.3",
+    "animate.css": "^4.1.1",
     "node-sass": "^5.0.0"
   },
-  "description": ""
+  "description": "This is a base template made with bootstrap"
 }
