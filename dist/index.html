@@ -67,10 +67,10 @@
           </ul>
           <!-- Links -->
 
-          <!-- Social Icon  -->
+          <!-- Donate Icon  -->
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a href="#donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3" >
+              <a href="#donate" id="btn-donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3">
                 <i class="fas fa-donate"></i> Fai una donazione
               </a>
             </li>
@@ -306,64 +306,55 @@
       </section>
     </div>
     <!-- /Container-->
-
-    <!-- Container -->
-    <div class="container-fluid p-0" id="donate-block">
-      <video autoplay muted loop id="myVideo">
+    <section id="donate" class="container-fluid p-0 view">
+      <video autoplay muted loop id="videoChild">
         <source src="img/Children - 28098.mp4" type="video/mp4">
-        
       </video>
       <div class="mask rgba-black-strong p-3">
-        <section id="donate">
-
-          <div class="row">
-            <div class="container">
-
-              <!-- Jumbotron -->
-              <div class="jumbotron text-center mdb-color lighten-2 white-text mx-3 my-3">
-
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-8">
+              <div id="donazioni" class="elegant text-center white-text mx-3 my-5">
                 <!-- Title -->
-                <h2 class="card-title h2">Material Design for Bootstrap</h2>
+                <h2>Sostieni San Matteo ETS</h2>
 
                 <!-- Subtitle -->
-                <p class="my-4 h6">Powerful and free Material Design UI KIT</p>
-
-                <!-- Grid row -->
-                <div class="row d-flex justify-content-center">
-
-                  <!-- Grid column -->
-                  <div class="col-xl-7 pb-2">
-
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem
-                      ea
-                      distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit
-                      consequatur
-                      ducimus obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem
-                      aperiam.
-                    </p>
-
+                <p class="my-4 h6">Un tuo piccolo gesto può fare grandi cose!</p>
+                <!-- Card deck -->
+                <div class="card-deck">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                   </div>
-                  <!-- Grid column -->
-
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
                 </div>
-                <!-- Grid row -->
-
-                <hr class="my-4 rgba-white-light">
-
-                <div class="pt-2">
-                  <button type="button" class="btn btn-outline-white">Buy now <i class="far fa-gem ml-1"></i></button>
-                  <button type="button" class="btn btn-outline-white">Download <i
-                      class="fas fa-download ml-1"></i></button>
-                </div>
-
               </div>
-              <!-- Jumbotron -->
             </div>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
-    <!-- Container -->
+
+    </section>
+
 
   </main>
   <!-- /Main layout-->
@@ -506,7 +497,10 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://dotCreative.it/"> dotCreative.it</a>
+      tutti diritti sono riservati -
+      <h5 class="">Made with <i class="fas fa-heart red-text mx-1"></i> by <a href="https://dotCreative.it/">
+          dotCreative.it</a></h5>
+
     </div>
     <!-- Copyright -->
 

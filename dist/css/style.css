@@ -98,5 +98,19 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+#btn-donate{
+  background-color: #24355c !important;
+  
+}
+#videoChild{
+  width: 100%;
+}
 
+#donazioni{
+  border: 1px solid rgb(133, 141, 158) !important;
+  border-radius: 1rem;
+  padding: 4rem;
+  background: rgb(58,54,130,0.50);
+  background: linear-gradient(180deg, rgba(58,54,130,0.55) 0%, rgba(58,58,150,0.45) 100%, rgba(0,212,255,1) 100%);
+}
 /* / donate section */ 
