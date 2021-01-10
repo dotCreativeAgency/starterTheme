@@ -36,7 +36,7 @@
         <a class="navbar-brand" href="#"><strong><i>San Matteo ETS</i></strong></a>
 
         <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        <button id="navbar-toggler1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
           aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -70,7 +70,7 @@
           <!-- Donate Icon  -->
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a href="#donate" id="btn-donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3">
+              <a href="#donate" onclick="(($('#navbar-toggler1').attr('aria-expanded'))=='true')?$('#navbar-toggler1').click():console.log('xx');" id="btn-donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3">
                 <i class="fas fa-donate"></i> Fai una donazione
               </a>
             </li>
@@ -306,53 +306,153 @@
       </section>
     </div>
     <!-- /Container-->
-    <section id="donate" class="container-fluid p-0 view">
-      <video autoplay muted loop id="videoChild">
-        <source src="img/Children - 28098.mp4" type="video/mp4">
-      </video>
-      <div class="mask rgba-black-strong p-3">
-        <div class="container h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-md-8">
-              <div id="donazioni" class="elegant text-center white-text mx-3 my-5">
-                <!-- Title -->
-                <h2>Sostieni San Matteo ETS</h2>
+    <section id="donate" class="container-fluid p-0">
+      <div class="view d-none d-lg-block">
+        <video autoplay muted loop id="videoChild">
+          <source src="img/Children - 28098.mp4" type="video/mp4">
+        </video>
+        <div class="mask rgba-black-strong p-3">
+          <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-md-12">
+                <div id="donazioni" class="elegant text-center white-text p-5">
+                  <!-- Title -->
+                  <h2>Sostieni San Matteo ETS</h2>
 
-                <!-- Subtitle -->
-                <p class="my-4 h6">Un tuo piccolo gesto può fare grandi cose!</p>
-                <!-- Card deck -->
-                <div class="card-deck">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <!-- Subtitle -->
+                  <p class="my-4 h4">Un tuo piccolo gesto può fare grandi cose!</p>
+                  <!-- Card deck -->
+                  <div class="row">
+
+                    <div class="col-4">
+
+                      <div class="card">
+
+                        <div class="card-body">
+                          <div style="color: #03ffff;">
+                            <i class="fab fa-cc-paypal fa-10x"></i>
+                          </div>
+                          <h5 class="card-title">Fai una donazione con Stripe</h5>
+                          <p class="card-text">Dai il tuo contributo usando la carta di credito tramite Stripe</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="col-4">
+
+                      <div class="card">
+
+                        <div class="card-body">
+                          <div style="color: #03ffff;">
+                            <i class="fab fa-cc-stripe fa-10x"></i>
+                          </div>
+                          <h5 class="card-title">Fai una donazione con Stripe</h5>
+                          <p class="card-text">Dai il tuo contributo usando la carta di credito tramite Stripe</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <div style="color: #03ffff;">
+                            <i class="fab fas fa-donate fa-7x"></i>
+                          </div>
+                          <h5 class="card-title" style="color: #03ffff;">Dona il 5 X MILLE</h5>
+                          <p class="card-text">Nella tua dichiarazione dei redditi dona il 5 X MILLE delle tasse alla
+                            fondazione SAN
+                            MATTEO ETS</p>
+                          <p class="card-text">C.F. 97637150588</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
+      <div class="d-block d-lg-none" style="width: 100%;background-color: rgb(57, 72, 102,.8);">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-12">
+              <div id="donazioni-mobile" class="text-center white-text p-5">
+                <!-- Title -->
+                <h2>Sostieni San Matteo ETS</h2>
+
+                <!-- Subtitle -->
+                <p class="my-4 h4">Un tuo piccolo gesto può fare grandi cose!</p>
+                <!-- Card deck -->
+                <div class="row">
+
+                  <div class="col-md-6 col-12">
+
+                    <div class="card card-cascade m-2">
+                      <!-- Card image -->
+                      <div class="view view-cascade overlay">
+                        <div style="color: rgb(0, 25, 250);">
+                          <i class="fab fa-cc-paypal fa-10x"></i>
+                        </div>
+                        <a>
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      
+                      <div class="card-body card-body-cascade text-center">
+
+                        <h5 class="card-title">Fai una donazione con PayPal</h5>
+                        <p class="card-text">Dai il tuo contributo usando la carta di credito tramite PayPal</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6 col-12">
+
+                    <div class="card card-cascade m-2">
+                      <!-- Card image -->
+                      <div class="view view-cascade overlay">
+                        <div style="color: rgb(0, 25, 250);">
+                          <i class="fab fa-cc-stripe fa-10x"></i>
+                        </div>
+                        <a>
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      
+                      <div class="card-body card-body-cascade text-center">
+                        
+                        <h5 class="card-title">Fai una donazione con Stripe</h5>
+                        <p class="card-text">Dai il tuo contributo usando la carta di credito tramite Stripe</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12">
+                    <div class="card m-2">
+                      <div class="card-body">
+                        <div style="color:rgb(0, 25, 250);">
+                          <i class="fab fas fa-donate fa-7x"></i>
+                        </div>
+                        <h5 class="card-title" style="color:rgb(0, 25, 250);">Dona il 5 X MILLE</h5>
+                        <p class="card-text">Nella tua dichiarazione dei redditi dona il 5 X MILLE delle tasse alla
+                          fondazione SAN
+                          MATTEO ETS</p>
+                        <p class="card-text">C.F. 97637150588</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 

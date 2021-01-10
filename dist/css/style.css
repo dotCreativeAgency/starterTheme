@@ -39,7 +39,7 @@ html {
 }
 
 .navbar i {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 /** / Navbar */
@@ -59,7 +59,7 @@ html {
 
 .features i {
   color: #0033c7;
-} 
+}
 
 .card.card-cascade.wider {
   -webkit-box-shadow: none;
@@ -72,45 +72,75 @@ html {
 }
 
 .card.card-cascade .view.view-cascade {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
-  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
-  -webkit-border-radius: .25rem;
-  border-radius: .25rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
 }
 
 .card.card-cascade.wider .card-body.card-body-cascade {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin-left: 4%;
   margin-right: 4%;
   background: #fff;
   z-index: 1;
-  -webkit-border-radius: 0 0 .25rem .25rem;
-  border-radius: 0 0 .25rem .25rem;
+  -webkit-border-radius: 0 0 0.25rem 0.25rem;
+  border-radius: 0 0 0.25rem 0.25rem;
 }
 
-/* donate section */ 
-#donate-block {
-  background: url("../img/sample.jpg") no-repeat center center
-    fixed;
+/* donate section */
+
+#btn-donate {
+  background-color: #24355c !important;
+}
+#videoChild {
+  width: 100%;
+}
+
+#donazioni {
+  border: 1px solid rgb(133, 141, 158) !important;
+  border-radius: 1rem;
+  background: rgb(58, 54, 130, 0.5);
+  background: linear-gradient(
+    180deg,
+    rgba(58, 54, 130, 0.55) 0%,
+    rgba(58, 58, 150, 0.45) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#donazioni .card {
+  background-color: transparent;
+}
+
+#donazioni .card-text {
+  color: #fbfbc4;
+  font-size: 1rem;
+}
+
+#donate {
+  background: url("../img/tommy-lisbin-gDzhss2CznA-unsplash.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#btn-donate{
-  background-color: #24355c !important;
-  
+
+#donazioni-mobile .card {
+  background-color:#eeeeee;
+  border-radius: 1rem;
 }
-#videoChild{
-  width: 100%;
+#donazioni-mobile .card-title {
+  color:rgb(0, 25, 250);
 }
 
-#donazioni{
-  border: 1px solid rgb(133, 141, 158) !important;
-  border-radius: 1rem;
-  padding: 4rem;
-  background: rgb(58,54,130,0.50);
-  background: linear-gradient(180deg, rgba(58,54,130,0.55) 0%, rgba(58,58,150,0.45) 100%, rgba(0,212,255,1) 100%);
+#donazioni-mobile .card-text {
+  color: rgb(31, 27, 27);
+  font-size: 1.15rem;
 }
-/* / donate section */ 
+
+
+/* / donate section */
