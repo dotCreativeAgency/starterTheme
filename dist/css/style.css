@@ -103,13 +103,7 @@ html {
 #donazioni {
   border: 1px solid rgb(133, 141, 158) !important;
   border-radius: 1rem;
-  background: rgb(58, 54, 130, 0.5);
-  background: linear-gradient(
-    180deg,
-    rgba(58, 54, 130, 0.55) 0%,
-    rgba(58, 58, 150, 0.45) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  /*background: rgb(58, 54, 130, 0.5);*/
 }
 
 #donazioni .card {
