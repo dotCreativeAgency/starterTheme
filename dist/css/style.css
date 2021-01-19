@@ -1,140 +1,209 @@
 html,
 body,
-header,
+/* header,  */
 #intro {
-  height: 100%;
+    height: 100%;
+}
+
+.h-80 {
+    height: 85% !important;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 #intro {
-  background: url("../img/beach-1852945_1920-4.jpg") no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../img/beach-1852945_1920-4.jpg") no-repeat center center
+        fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /** Navbar */
 
 .top-nav-collapse {
-  background-color: #24355c;
+    background-color: #24355c;
 }
 @media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #24355c;
-  }
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355c;
+    }
 }
 @media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #24355c;
-  }
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355c;
+    }
 }
 
 .btn-rounded {
-  border-radius: 10em;
+    border-radius: 10em;
 }
 
 .navbar i {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 /** / Navbar */
 
 .features .title {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: #0a183d;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #0a183d;
 }
 
 .features .subtitle {
-  color: #0d17a0;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 6rem;
+    color: #0d17a0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 6rem;
 }
 
 .features i {
-  color: #0033c7;
+    color: #0033c7;
 }
 
 .card.card-cascade.wider {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .card.card-cascade.wider .view.view-cascade {
-  z-index: 2;
+    z-index: 2;
 }
 
 .card.card-cascade .view.view-cascade {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 0.25rem;
-  border-radius: 0.25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+        0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+        0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
 }
 
 .card.card-cascade.wider .card-body.card-body-cascade {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  margin-left: 4%;
-  margin-right: 4%;
-  background: #fff;
-  z-index: 1;
-  -webkit-border-radius: 0 0 0.25rem 0.25rem;
-  border-radius: 0 0 0.25rem 0.25rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-left: 4%;
+    margin-right: 4%;
+    background: #fff;
+    z-index: 1;
+    -webkit-border-radius: 0 0 0.25rem 0.25rem;
+    border-radius: 0 0 0.25rem 0.25rem;
 }
 
 /* donate section */
 
 #btn-donate {
-  background-color: #24355c !important;
+    background-color: #24355c !important;
 }
 #videoChild {
-  width: 100%;
+    width: 100%;
 }
 
 #donazioni {
-  border: 1px solid rgb(133, 141, 158) !important;
-  border-radius: 1rem;
-  /*background: rgb(58, 54, 130, 0.5);*/
+    border: 1px solid rgb(133, 141, 158) !important;
+    border-radius: 1rem;
+    /*background: rgb(58, 54, 130, 0.5);*/
 }
 
 #donazioni .card {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 #donazioni .card-text {
-  color: #fbfbc4;
-  font-size: 1rem;
+    color: #fbfbc4;
+    font-size: 1rem;
 }
 
 #donate {
-  background: url("../img/tommy-lisbin-gDzhss2CznA-unsplash.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../img/tommy-lisbin-gDzhss2CznA-unsplash.jpg") no-repeat
+        center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #donazioni-mobile .card {
-  background-color:#eeeeee;
-  border-radius: 1rem;
+    background-color: #eeeeee;
+    border-radius: 1rem;
 }
 #donazioni-mobile .card-title {
-  color:rgb(0, 25, 250);
+    color: rgb(0, 25, 250);
 }
 
 #donazioni-mobile .card-text {
-  color: rgb(31, 27, 27);
-  font-size: 1.15rem;
+    color: rgb(31, 27, 27);
+    font-size: 1.15rem;
 }
 
-
 /* / donate section */
+
+/**
+* Intro per pagine diverse da home e post
+*/
+
+.card-intro .card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+.card-intro-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1001;
+}
+
+.card-intro-pers {
+    background: rgb(41, 60, 105);
+    background: -moz-linear-gradient(
+        329deg,
+        rgba(41, 60, 105, 1) 0%,
+        rgba(90, 133, 232, 1) 32%,
+        rgba(90, 133, 232, 1) 71%,
+        rgba(41, 60, 105, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        329deg,
+        rgba(41, 60, 105, 1) 0%,
+        rgba(90, 133, 232, 1) 32%,
+        rgba(90, 133, 232, 1) 71%,
+        rgba(41, 60, 105, 1) 100%
+    );
+    background: linear-gradient(
+        329deg,
+        rgba(41, 60, 105, 1) 0%,
+        rgba(90, 133, 232, 1) 32%,
+        rgba(90, 133, 232, 1) 71%,
+        rgba(41, 60, 105, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#293c69",endColorstr="#293c69",GradientType=1);
+}
+
+.card-intro .card-body h1 {
+    margin-bottom: 0;
+}
+
+.card-intro {
+    margin-top: 54px;
+}
+
+@media (max-width: 450px) {
+    .card-intro {
+        margin-top: 54px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .card-intro {
+        padding-left: 0 !important;
+    }
+}

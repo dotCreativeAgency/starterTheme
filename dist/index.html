@@ -25,7 +25,7 @@
   <!-- Start your project here-->
 
   <!--Main Navigation-->
-  <header>
+  <header class="h-100">
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -36,8 +36,9 @@
         <a class="navbar-brand" href="#"><strong><i>San Matteo ETS</i></strong></a>
 
         <!-- Collapse button -->
-        <button id="navbar-toggler1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="navbar-toggler1" class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -70,7 +71,9 @@
           <!-- Donate Icon  -->
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a href="#donate" onclick="(($('#navbar-toggler1').attr('aria-expanded'))=='true')?$('#navbar-toggler1').click():console.log('xx');" id="btn-donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3">
+              <a href="#donate"
+                onclick="(($('#navbar-toggler1').attr('aria-expanded'))=='true')?$('#navbar-toggler1').click():console.log('xx');"
+                id="btn-donate" class="btn btn-rounded btn-outline-white btn-md my-2 my-sm-0 ml-3">
                 <i class="fas fa-donate"></i> Fai una donazione
               </a>
             </li>
@@ -90,7 +93,7 @@
         <div class="container-fluid d-flex align-items-center justify-content-center h-100">
 
           <div class="row d-flex justify-content-center text-center">
-            <div class="col-md-12">
+            <div class="">
 
               <!-- Heading -->
               <h2
@@ -154,7 +157,7 @@
               <!-- Grid column -->
               <div class="col-xl-10 col-md-11 col-10">
                 <h5 class="font-weight-bold mb-3">Aiutiamo chi è in difficoltà</h5>
-                <p class="grey-text">Lorem  dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+                <p class="grey-text">Lorem dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
                   quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
               </div>
               <!-- Grid column -->
@@ -206,105 +209,104 @@
         <!-- /Grid row-->
       </section>
     </div>
-    <div class="container-fluid" style="background-color: #eee;">
-      <section id="projects" class="text-center p-5" style="background-color: #eee;">
 
-        <div class="container">
-          <h4 class="h1-responsive font-weight-bold text-center">I nostri progetti</h4>
-          <div class="row my-4">
+    <section id="projects" class="text-center p-5 container-fluid" style="background-color: #eee;">
 
-            <div class="col-lg-4">
-              <!-- Card Wider -->
-              <div class="card card-cascade wider my-5">
+      <div class="container">
+        <h4 class="h1-responsive font-weight-bold text-center">I nostri progetti</h4>
+        <div class="row my-4">
 
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg"
-                    alt="Card image cap">
-                  <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
+          <div class="col-lg-4">
+            <!-- Card Wider -->
+            <div class="card card-cascade wider my-5">
 
-                <!-- Card content -->
-                <div id="step-3" class="card-body card-body-cascade text-center tour st-3" title="Step three"
-                  data-index="2">
-
-                  <!-- Title -->
-                  <h4 class="card-title"><strong>Esempio 1</strong></h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
-                  <!-- Text -->
-                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam. </p>
-                </div>
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg"
+                  alt="Card image cap">
+                <a href="#!">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
               </div>
 
-              <!-- /Card Wider -->
-            </div>
-            <div class="col-lg-4">
-              <!-- Card Narrower -->
-              <div class="card card-cascade wider my-5">
+              <!-- Card content -->
+              <div id="step-3" class="card-body card-body-cascade text-center tour st-3" title="Step three"
+                data-index="2">
 
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                    alt="Card image cap">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!-- Card content -->
-                <div class="card-body card-body-cascade">
-
-                  <!-- Title -->
-                  <h4 class="card-title"><strong>Esempio 2</strong></h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
-                  <!-- Text -->
-                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam. </p>
-
-                </div>
-
+                <!-- Title -->
+                <h4 class="card-title"><strong>Esempio 1</strong></h4>
+                <!-- Subtitle -->
+                <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                <!-- Text -->
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                  laudantium, totam rem aperiam. </p>
               </div>
-              <!-- Card Narrower -->
-
             </div>
-            <div class="col-lg-4">
-              <!-- Card Regular -->
-              <div class="card card-cascade wider my-5">
 
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg"
-                    alt="Card image cap">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!-- Card content -->
-                <div class="card-body card-body-cascade text-center">
-
-                  <!-- Title -->
-                  <h4 class="card-title"><strong>Esempio 3</strong></h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
-                  <!-- Text -->
-                  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam. </p>
-
-                </div>
-
-              </div>
-              <!-- Card Regular -->
-            </div>
+            <!-- /Card Wider -->
           </div>
+          <div class="col-lg-4">
+            <!-- Card Narrower -->
+            <div class="card card-cascade wider my-5">
 
-      </section>
-    </div>
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                  alt="Card image cap">
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Esempio 2</strong></h4>
+                <!-- Subtitle -->
+                <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                <!-- Text -->
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                  laudantium, totam rem aperiam. </p>
+
+              </div>
+
+            </div>
+            <!-- Card Narrower -->
+
+          </div>
+          <div class="col-lg-4">
+            <!-- Card Regular -->
+            <div class="card card-cascade wider my-5">
+
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade text-center">
+
+                <!-- Title -->
+                <h4 class="card-title"><strong>Esempio 3</strong></h4>
+                <!-- Subtitle -->
+                <h5 class="blue-text pb-2"><strong>Progetto</strong></h5>
+                <!-- Text -->
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+                  laudantium, totam rem aperiam. </p>
+
+              </div>
+
+            </div>
+            <!-- Card Regular -->
+          </div>
+        </div>
+
+    </section>
+
     <!-- /Container-->
     <section id="donate" class="container-fluid p-0">
       <div class="view d-none d-lg-block">
@@ -401,7 +403,7 @@
                           <div class="mask rgba-white-slight"></div>
                         </a>
                       </div>
-                      
+
                       <div class="card-body card-body-cascade text-center">
 
                         <h5 class="card-title">Fai una donazione con PayPal</h5>
@@ -423,9 +425,9 @@
                           <div class="mask rgba-white-slight"></div>
                         </a>
                       </div>
-                      
+
                       <div class="card-body card-body-cascade text-center">
-                        
+
                         <h5 class="card-title">Fai una donazione con Stripe</h5>
                         <p class="card-text">Dai il tuo contributo usando la carta di credito tramite Stripe</p>
                       </div>
