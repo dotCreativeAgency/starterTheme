@@ -27,16 +27,7 @@ html {
 .top-nav-collapse {
     background-color: #24355c;
 }
-@media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-        background-color: #24355c;
-    }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background-color: #24355c;
-    }
-}
+
 
 .btn-rounded {
     border-radius: 10em;
